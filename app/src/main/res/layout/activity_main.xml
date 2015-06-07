@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFE0B2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="My Nanodegree Apps!"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/spotify_app"
+        style="@style/buttons_style"
+        android:text="Spotify Streamer"
+        android:background="#F08C35"
+        android:onClick="displayToast" />
+
+    <Button
+        android:id="@+id/scores_app"
+        style="@style/buttons_style"
+        android:text="Scores App"
+        android:background="#F08C35"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/library_app"
+        style="@style/buttons_style"
+        android:text="Library App"
+        android:background="#F08C35"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/bib_app"
+        style="@style/buttons_style"
+        android:text="Build It Bigger"
+        android:background="#F08C35"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/reader_app"
+        style="@style/buttons_style"
+        android:text="XYZ Reader"
+        android:background="#F08C35"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/capstone_app"
+        style="@style/buttons_style"
+        android:text="Capstone: My Own App"
+        android:background="#E91E63"
+        android:textColor="#FCE4EC"
+        android:onClick="displayToast"/>
+
+
+</LinearLayout>
